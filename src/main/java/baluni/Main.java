@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         LocalStorageImpl localStorage = new LocalStorageImpl();
 
-        boolean isOk = localStorage.createStorage("C:\\Users\\Vid\\Desktop\\joka");
+        boolean isOk = localStorage.createStorage("C:\\Users\\12345\\Desktop\\kisiz");
 
         if(isOk){
             System.out.println("Vazi");
@@ -16,7 +16,7 @@ public class Main {
 
 //         komanda bi trebalo da izgleda ovako mkdir C:\\Users\\Vid\\Desktop\\joka s{1..20}
 
-        boolean dirOk = localStorage.createDirectory("C:\\Users\\Vid\\Desktop\\joka","s{10..25}");
+        boolean dirOk = localStorage.createDirectory("C:\\Users\\12345\\Desktop\\kisiz","s{1..25}");
 
         if(dirOk){
             System.out.println("Method ended successfully");
