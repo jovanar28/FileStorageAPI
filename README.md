@@ -12,4 +12,5 @@ directories and subdirectories, searching for files with specific names, extensi
 sorting of search results and also result filtering based on specified parameters.
 
 Implementation for LocalStorage can be found on this [link](https://github.com/jovanar28/LocalFileStorage)
+
 Implementation for GoogleFileStorage can be found on this [link](https://github.com/jovanar28/GoogleFileStorage)
